@@ -1,0 +1,26 @@
+Principal Components Report
+========================================================
+
+Principal Components Analysis found `r length(PCAResults[1]$sdev) ` components.
+
+Input columns: `r OriginalColNames`
+
+
+Summary of results
+```{r}
+PCAResults
+```
+
+The scree plot graphs the eigenvalue against the component number. To determine the appropriate number of components, we look for an "elbow" in the scree plot. The component number is taken to be the point at which the remaining eigenvalues are relatively small and all about the same size
+
+```{r fig.width=7, fig.height=6}
+varPlot
+```
+
+The biplot shows the components aligned by two selected vectors
+
+```{r fig.width=7, fig.height=6}
+pcaPlot
+```
+
+
