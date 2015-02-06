@@ -1,0 +1,11 @@
+Remove Stopwords Report
+=================================================================
+
+Remove Stopwords found and remove stopwords from a text document
+
+Input Columns: 'r colNames'
+
+Results
+```{r}
+result
+```
