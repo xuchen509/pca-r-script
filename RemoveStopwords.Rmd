@@ -3,6 +3,8 @@ Remove Stopwords Report
 
 Remove Stopwords found and remove stopwords from a text document
 
+Note: This script depends on a R version 3.1 or later. If earlier version exists, please upgrade to the required version before use.
+
 Input Columns: 'r colNames'
 
 Results
