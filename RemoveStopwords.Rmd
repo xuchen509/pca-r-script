@@ -11,4 +11,4 @@ Results
 ```{r}
 result
 ```
-For more information, please refer to 'tm' pacakage documentation page
+For more information, please refer to 'tm' pacakage documentation page http://cran.r-project.org/web/packages/tm/tm.pdf
